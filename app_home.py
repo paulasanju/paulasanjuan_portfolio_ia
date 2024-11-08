@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Define the pages
+# Defino las paginas
 profile = st.Page(
     "home/0_Sobre_mi.py",
     title="Sobre mi",
@@ -24,3 +24,4 @@ pg = st.navigation(
         "Home": [profile],
         "Proyectos": [copilot, chatbot],
     }
+)
